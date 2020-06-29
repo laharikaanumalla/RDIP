@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
    <head>
       <title>Registration Form</title>
@@ -21,10 +22,10 @@
    <body>
       <h1 align=center> HOME PAGE: </h1>
       <a href="https://www.iiit.ac.in/">
-         <p align=left><img src="iiit new.png" height=10% widt10%></p>
+         <p align=left><img src="iiit new.png" height=60px width=60px></p>
       </a>
       <a href="https://serc.iiit.ac.in/rdip">
-         <p align=right>RDIP<height=10% widt10%></p>
+         <p align=right>RDIP<height=50px width=50px></p>
       </a>
       <h1 style="background-color:gray">
          <div id="link_bar">
