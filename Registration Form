@@ -1,5 +1,4 @@
 <html>
- <head>
    <head>
       <title>Registration Form</title>
    </head>
@@ -20,7 +19,7 @@
    </style>
    </head>
    <body>
-      <h1 align=center> Details page </h1>
+      <h1 align=center> HOME PAGE: </h1>
       <a href="https://www.iiit.ac.in/">
          <p align=left><img src="iiit new.png" height=10% widt10%></p>
       </a>
@@ -36,24 +35,28 @@
       </h1>
 	  <form>
 	  <table>
-	 <p><tr>
-	 <td>
-	 Name : 
-	 </td>
-	  <td><input type="text" placeholder="Laharika Anumalla" Name=" "></td>
+	  <tr><td>
+	  Name : 
+	  </td>
+	  <td><input type="text" placeholder="Name" Name=" "></td>
 	  </tr>
 	   <tr>
 	   <td> 
-	   Email :
+	   Email : 
 	   </td>
-	  <td><input type="text"placeholder="laharika.anumalla@gmail.com" email=""></td>
+	  <td><input type="text" placeholder="email" name=" "></td>
 	  </tr>
-	   <tr><td> Phone no: </td>
-	  <td><input type="Phone" Placeholder="7075553863 " name=""></td>
+	   <tr>
+	   <td> 
+	   Phone no: 
+	   </td>
+	  <td><input type="Phone" placeholder="987*******" Name=" "></td>
 	  </tr>
-	   <tr><td> Gender : </td>
+	   <tr>
+	   <td> Gender : 
+	   </td>
 	  <td><input type="radio" Name="Gender">Male
-	  <input type="radio" Name="Female">Female
+	  <input type="radio" Placeholder="radio" Name="Gender">Female
 	  <input type="radio" Name="Gender">Other
 	  </td>
 	  </tr>
@@ -63,10 +66,19 @@
 	  <input type="radio" Name="Lamguage">Java Script
 	  </td>
 	  </tr>
-	  <tr><td> College: </td>
-	  <td><input type="text" placeholder="St martin's engineering collegeS " name=""></td>
-	  </tr></table>
-	  </body>
-	  </head>
-	  </html>
-	  
+	  <tr>
+	  <td> College: 
+	  </td>
+	  <td><input type="text" placeholder="college name" Name=" "></td>
+	  </tr>
+	  </table>
+	  <tr>
+	 <p> <td><input type="checkbox">I Declare above details given by me are true</td></p>
+	  </tr>
+	  <tr>
+	  <td><input type="Submit" Value="Submit" Name=" ">
+	  <input type="Reset" Value="Reset" Name=" ">
+	  </td>
+	  </tr>
+	   </body>
+</html>
